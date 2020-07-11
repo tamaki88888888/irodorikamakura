@@ -1,55 +1,52 @@
-<?php
-/**
- * The main template file.
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package Mugu
- */
+<!-- これが本物なので -->
+<section class="top__wrapper">
+ 	<div class="top__wrapper top__wrapper--right">
+		<div class="logo__wrapper logo__wrapper--hover-slidein">
+			<div class="title__logo">ロゴ</div>
+			<div class="title__text">体験予約</div>
+		</div>
+		<a href="<?php bloginfo('wpurl'); ?>/hotel-search/">
+	 	 <div class="top__wrapper top__wrapper--hover-black">
+ 	 	 </div>
+		</a>
+	</div>
 
-get_header(); ?>
+	<div class="top__wrapper top__wrapper--center">
+		<div class="logo__wrapper logo__wrapper--center">
+			<div class="title__logo"><img class="top__logo" src="<?php bloginfo('wpurl'); ?>/wp-content/themes/mugu/images/irodori-logo_white.png"></div>
+            <div class="title__text">&nbsp;irodori</div>
+		</div>
+		<div class="top__wrapper top__wrapper--hover-white">
+ 		</div>
+	</div>
 
-	<?php if( ! is_home() ) { echo '<div class="post-section">'; } ?>
+	<div class="top__wrapper top__wrapper--left">
+	 	<div class="logo__wrapper logo__wrapper--hover-slidein">
+	 	 	<div class="title__logo">ロゴ</div>
+	 	 	<div class="title__text">宿泊予約</div>
+	 	</div>
+		<a href="#">
+	 	 	<div class="top__wrapper top__wrapper--hover-black">
+ 			</div>
+		</a>
+	</div>
+</section>
 
-		<main id="main" class="site-main" role="main">
 
-		<?php
-		if ( have_posts() ) :
 
-			if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
+<section class="sidebar">
+	<div class="sidebar__bg">
+		<div class="sidebar__wrapper">
+			<a class="sidebar__a" href="#">
+				<div class="category__box">
+					<p class="category__name category__name--about">irodori とは</p>
+				</div>
+			</a>
+		</div>			
+	</div>
+</section>
 
-			<?php
-			endif;
 
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
 
-			endwhile;
 
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; ?>
-
-		</main><!-- #main -->
-	<?php if( ! is_home() ) { echo '</div>'; } ?>
-
-<?php
-get_sidebar();
-get_footer();
