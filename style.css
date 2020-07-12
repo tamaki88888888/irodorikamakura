@@ -2862,3 +2862,81 @@ object {
     background:#fff;
     margin:20px;
 }
+
+
+
+
+/* top page */
+
+.top__wrapper{
+	height: 100vh;
+	width: 100%
+}
+
+.top__wrapper--center{
+	background:url('../../uploads/2020/07/denim.png') no-repeat center ;
+	background-size: cover;
+  position: absolute;
+	margin: auto;
+	right: 0px;
+  left: 0px;
+  width: 30%;
+}	
+
+.top__wrapper--left {
+	background:url('../../uploads/2020/07/kamakura-samurai-tour.jpg') no-repeat center ;
+  position: absolute;
+  width: 35%;
+  left: 0px;
+}
+
+.top__wrapper--right {
+	background:url('../../uploads/2020/07/irodori-yado.jpg') no-repeat center ;
+	position:absolute;
+  width: 35%;
+  right: 0px;
+}
+
+.logo__wrapper{
+  position: absolute;
+  margin: auto;
+  top: 40vh;
+  right: 0px;
+  left: 0px;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+
+.top__wrapper--hover-white{
+	background: #070e6d38;
+	transition: all 0.5s ease;
+}
+
+.top__wrapper--hover-white:hover{
+	background: #b7b6b554;
+}
+
+.top__wrapper--hover-black{
+	background: #c1bbae42;
+	transition: all 0.5s ease;
+}
+
+.top__wrapper--hover-black:hover{
+	background: #00000073;
+}
+
+.container {
+    width: 100%;
+}
+
+.top-bar .page-header {
+  text-align: center;
+}
+
+.hotel-booking-search{
+	width: 50%;
+	margin: auto;
+	border: 1px solid #e0e0e0;
+	border-radius: 13px;
+}
