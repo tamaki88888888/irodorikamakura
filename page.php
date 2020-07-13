@@ -16,6 +16,57 @@
 $sidebar_layout = mugu_sidebar_layout();
 
 get_header(); ?>
+<!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<script>
+$(function() {
+  //$('input').attr("autocomplete", 'off');
+});
+</script>
+<style>
+/* フッター */
+
+.site-header{
+	display: none;
+}
+
+.content__background{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+}
+
+.site-footer .site-info {
+	position: absolute;
+	bottom : 0;
+    padding: 28px 0;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+}
+
+.entry-footer{
+	display: none;
+}
+
+/* 入力フォーム */
+.hotel-booking-search {
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+	background: #ffffff63;
+	padding: 35px 190px;
+}
+
+label{
+	margin: 3px;
+}
+
+</style>
+	<img class="content__background" src="http://localhost:8888/wp-content/uploads/2020/07/cork-scaled.jpg" alt="">
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
