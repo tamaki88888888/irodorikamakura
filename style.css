@@ -1457,7 +1457,6 @@ object {
 }
 
 #primary{
-	float: left;
 	width: 66.6667%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -2939,4 +2938,14 @@ object {
 	margin: auto;
 	border: 1px solid #e0e0e0;
 	border-radius: 13px;
+}
+
+
+/* */
+.hb-room{
+	background: #ffffff85;
+	padding: 10px;
+}
+.woocommerce{
+	background: #ffffff85;
 }

@@ -32,7 +32,7 @@ $(function() {
 .content__background{
 	width: 100%;
 	height: 100vh;
-	position: absolute;
+    position: fixed;
 	top: 0;
 }
 
@@ -62,6 +62,14 @@ $(function() {
 
 label{
 	margin: 3px;
+}
+
+/* チェックアウト */
+#secondary{
+	display: none;
+}
+.content-area{
+	margin: auto;
 }
 
 </style>

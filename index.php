@@ -149,7 +149,7 @@ body {
 	 	 	<div class="title__logo">ロゴ</div>
 	 	 	<div class="title__text">宿泊予約</div>
 	 	</div>
-		<a href="#">
+		<a href="<?php bloginfo('wpurl'); ?>/hotel-search/">
 	 	 	<div class="top__wrapper top__wrapper--hover-black">
  			</div>
 		</a>
