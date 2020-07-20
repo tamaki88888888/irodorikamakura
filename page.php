@@ -57,8 +57,9 @@ $(function() {
     border: none;
     border-radius: 5px;
 	background: #ffffff63;
-	padding: 35px 190px;
+	padding: 40px;
 }
+
 
 label{
 	margin: 3px;
@@ -70,6 +71,29 @@ label{
 }
 .content-area{
 	margin: auto;
+}
+@media screen and (max-width:400px) {
+/*　SPサイズ-限定　*/
+.hotel-booking-search {
+	width: 100%;
+	padding: 30px;
+}
+.woocommerce-page img {
+    height: 100vh;
+    max-width: 100%;
+}
+.woocommerce {
+    background: #ffffff85;
+	padding: 10px;
+}
+.site-footer .site-info {
+    display: none;
+}
+#payment ul.payment_methods li img {
+    width: 38px;
+    height: 24px;
+}
+/*　SPサイズ-限定-ここまで　*/
 }
 
 </style>
