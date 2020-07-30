@@ -294,7 +294,7 @@ h6 {
 }
 
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 0.2em;
 	margin-top: 0
 }
 
@@ -2864,88 +2864,333 @@ object {
 
 
 
-
-/* top page */
-
-.top__wrapper{
-	height: 100vh;
-	width: 100%
-}
-
-.top__wrapper--center{
-	background:url('../../uploads/2020/07/denim.png') no-repeat center ;
-	background-size: cover;
-  position: absolute;
-	margin: auto;
-	right: 0px;
-  left: 0px;
-  width: 30%;
-}	
-
-.top__wrapper--left {
-	background:url('../../uploads/2020/07/kamakura-samurai-tour.jpg') no-repeat center ;
-  position: absolute;
-  width: 35%;
-  left: 0px;
-}
-
-.top__wrapper--right {
-	background:url('../../uploads/2020/07/irodori-yado.jpg') no-repeat center ;
-	position:absolute;
-  width: 35%;
-  right: 0px;
-}
-
-.logo__wrapper{
-  position: absolute;
-  margin: auto;
-  top: 40vh;
-  right: 0px;
-  left: 0px;
-  width: 200px;
-  text-align: center;
-  color: white;
-}
-
-.top__wrapper--hover-white{
-	background: #070e6d38;
-	transition: all 0.5s ease;
-}
-
-.top__wrapper--hover-white:hover{
-	background: #b7b6b554;
-}
-
-.top__wrapper--hover-black{
-	background: #c1bbae42;
-	transition: all 0.5s ease;
-}
-
-.top__wrapper--hover-black:hover{
-	background: #00000073;
-}
-
-.container {
+/* ヘッダー */
+header{
+	display: flex;
+    justify-content: space-between;
+	position: fixed;
+    top: 0px;
     width: 100%;
+    border: 5px solid #b1b479;
+    background: #efebdc;
+	height: 57px;
+	z-index: 100;
+}
+img{
+    width: 100%;
+  }
+
+  .header__logo{
+    
+  }
+
+  .header__toggle{
+    background: black;
+    width: 182px;
+    height: 47px;
+  }
+
+  .header__booking{
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0px 20px;
+  }
+
+  .header__text{
+    margin: 0;
+    margin-top: 2px;
+    height: 14px;
+  }
+
+  .header__img{
+    height: 100%;
+    width: auto;
+  }
+
+  .nav{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 52px;
+    border: 5px solid #b1b479;
+    background: #efebdc;
+    height: 57px;
+    display: none;
+  }
+
+  .nav__cell{
+    width: 50%;
+  }
+
+/******************
+humberger settings
+******************/
+
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  box-sizing: border-box; }
+
+.menu-trigger {
+  transition: all 1s 0.5s ease;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  margin: 7px 13px;
+  z-index: 9999; }
+
+.menu-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  border-radius: 4px; }
+
+.menu-trigger span:nth-of-type(1) {
+  top: 4px; }
+
+.menu-trigger span:nth-of-type(2) {
+  top: 16px; }
+
+.menu-trigger span:nth-of-type(3) {
+  bottom: 0; }
+
+.menu-trigger.active span:nth-of-type(1) {
+  -webkit-transform: translateY(8px) rotate(-315deg);
+  transform: translateY(12px) rotate(-315deg); }
+
+.menu-trigger.active span:nth-of-type(2) {
+  opacity: 0; }
+
+.menu-trigger.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-6px) rotate(315deg);
+  transform: translateY(-12px) rotate(315deg); }
+
+
+
+/* topkv */
+
+.topkv{
+	margin-top: 50px;
+}
+.page-border{
+	border: 5px solid #b1b479;
+}
+.page-wrapper{
+	width: 100%;
+	background: #efebdc;
+	overflow: hidden;
+	font-size: 15px;
+	font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro" ,'Noto Serif JP', serif;
 }
 
-.top-bar .page-header {
-  text-align: center;
+/* お知らせ */
+.body{
+	font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro" ,'Noto Serif JP', serif;
+  }
+  
+  .news{
+	background: white;
+	display: flex;
+	height: 130px;
+	text-align: center;
+  }
+  
+  .news__title{
+	width: 40%;
+	margin-top: 50px;
+	font-size: 22px;
+  }
+  
+  .news__content{
+	width: 60%;
+	margin-top: 50px;
+  }
+
+
+/* お知らせ */
+
+
+
+/* スワイパー */
+.swiper-slide{
+  	height: 560px;
 }
 
-.hotel-booking-search{
-	width: 50%;
-	margin: auto;
-	border: 1px solid #e0e0e0;
-	border-radius: 13px;
-}
+  /* message */
+  .message{
+    padding: 40px 25px;
+  }
+  .message__title{
+    font-size: 25px;
+    line-height: 33px;
+    margin: 30px 0 20px;
+  }
+  .message__text{
+    margin: 30px 0px;
+  }
+  .hude-img{
+    background: url("../../../wp-content/uploads/2020/07/hude.png") no-repeat center;
+    background-size: 260px;
+  }
+  .message__voice{
+    margin: 60px auto;
+    font-size: 23px;
+  }
+  .vartical{
+    writing-mode: vertical-rl;
+  }
+  .btn{
+    padding: 15px 20px;
+    background: #4a593d;
+    color: white;
+    display: inline;
+  }
+  .img-arrow{
+    width: 30px;
+    margin-left: 11px;
+  }
+  .sns{
+    margin-bottom: 40px;
+  }
+  .booking-btn__wrapper{
+    background: url("../../../wp-content/uploads/2020/07/irodori3.jpg") no-repeat center;
+    padding: 90px 30px;
+  }
+  .btn--footer{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background: #ffffff00;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+  .footer__info{
+    padding: 30px 20px;
+    font-size: 16px;
+	font-weight: bold;
+	background: #dfddc3;
+  }
+  .footer__logo{
+    width: 30px;
+    height: 30px;
+  }
+  .footer__name{
+    font-size: 20px;
+  }
 
 
-/* */
-.hb-room{
-	background: #ffffff85;
+
+  /* 宿泊案内 */
+  .stay__top{
+    margin-top: 50px;
+  }
+  .stay__topkv {
+    background: url("../../../wp-content/uploads/2020/07//irodori-yado.jpg") no-repeat center;
+	padding: 70px 30px;
+  }
+  .stay__title{
+	font-size: 35px;
+    letter-spacing: 4px;
+	color: white;
+  }
+  .text-center{
+	text-align: center;
+  }
+  .checkout-time__wrapper{
+	background: white;
+	padding: 15px;
+  }
+  .bold{
+	font-weight: bold;
+  }
+  .nimotsu{
+	margin-top: 20px;
+  }
+  .border-gray{
+	border: 2px solid gainsboro;
+  }
+  .room{
+	margin: 40px 0px;
+  }
+  .room__about{
+	display: flex;
+	flex-wrap: wrap;
 	padding: 10px;
+	background: white;
+  }
+  .room__tr{
+	width: 25%;
+  }
+  .room__td{
+	width: 75%;
+  }
+  .stay__caution{
+	border: 4px solid gainsboro;
+	padding: 0 20px;
+	background: white;
+  }
+  .message__text--caution {
+	  margin: 20px 0px;
+  }
+  .btn-center{
+	padding: 11px 20px;
+	background: #4a593d;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 240px;
+  }
+
+  /* 施設案内 */
+  .facility__item{
+	width: 50%;
+	text-align: center;
+	margin: 10px auto;
+  }
+  .facility__wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 20px 10px;
+  }
+  .item-img{
+	width: 60px;
+  }
+  .facility__text{
+	font-size: 18px;
+	margin-bottom: 20px;
+  }
+  .maps{
+	margin-bottom: 30px;
+  }
+  .access{
+	padding: 40px 25px 100px;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+/* 1024pxまでの幅の場合に適応される */
+	body {
+		background-color:#2262D1;
+	}
 }
-.woocommerce{
-	background: #ffffff85;
-}
+  

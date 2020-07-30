@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head itemscope itemtype="http://schema.org/WebSite">
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width,  initial-scale=1, minimum-scale=0.5, maximum-scale=2">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<?php wp_head(); ?>
 <?php
 /**
  * The template for displaying all pages.
@@ -16,17 +26,11 @@
 $sidebar_layout = mugu_sidebar_layout();
 
 get_header(); ?>
-<!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
-<script>
-$(function() {
-  //$('input').attr("autocomplete", 'off');
-});
-</script>
-<style>
 
+</head>
 
-</style>
-
+<body>
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v7.0" nonce="Olsdcl7o"></script>
 
@@ -61,28 +65,28 @@ $(function() {
     </section>
     <section class="message">
       <div class="message__title text-center">
-	  <p>ご予約</p>
+	      <p>ご予約</p>
       </div>
       <div class="message__text">
         <p>ご予約は、お電話もしくはメールフォームより受け付けております。</p>
-		<p>空き状況を確認いたしますので、宿泊予定日を入力ください。</p>
-		<p>（前日・当日のご予約はお電話にてお願いします。）</p>
+		    <p>空き状況を確認いたしますので、宿泊予定日を入力ください。</p>
+		    <p>（前日・当日のご予約はお電話にてお願いします。）</p>
+      </div>
+      <div class="booking page-border">
+	    	<?php
+	    			while ( have_posts() ) : the_post();
+
+	    				get_template_part( 'template-parts/content', 'page' );
+
+	    				// If comments are open or we have at least one comment, load up the comment template.
+	    				if ( comments_open() || get_comments_number() ) :
+	    					comments_template();
+	    				endif;
+
+	    			endwhile; // End of the loop.
+	    	?>
       </div>
     </section>
-	<section class="booking">
-		<?php
-				while ( have_posts() ) : the_post();
-
-					get_template_part( 'template-parts/content', 'page' );
-
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-
-				endwhile; // End of the loop.
-				?>
-	</section>
     <section class="footer">
       <div class="booking-btn__wrapper">
         <p class="btn btn--footer">宿泊予約はこちら</p>
@@ -100,6 +104,7 @@ $(function() {
   </div>
 </div>
 
+<!-- これが本物なので -->
 <style>
 #masthead{
 	display: none;
@@ -110,19 +115,48 @@ $(function() {
 .site-footer{
 	display: none;
 }
+.hb_input_field {
+  width: 100%;
+}
+#hotel-booking-results > h3 {
+  font-size: 20px;
+  text-align:center;
+}
+.hb-room-info{
+  background: #ffffff;
+  padding: 30px;
+}
+#hotel-booking-results .hb-search-results > .hb-room .hb-room-name {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.hb-room-meta li{
+  margin-bottom: 10px;
+}
+.hb_view_price{
+  display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 780px){}
+  #hotel-booking-results .hb-search-results > .hb-room .hb-room-info {
+    background: #ffffff;
+    padding: 30px;
+  }
+}
 </style>
 
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script> 
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-
-if( $sidebar_layout == 'right-sidebar' ) 
-get_sidebar(); 
-get_footer();
+  <script src="/wp-content/themes/mugu/js/main.js"></script>
+</body>
