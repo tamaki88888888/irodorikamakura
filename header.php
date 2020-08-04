@@ -13,7 +13,7 @@
 <html <?php language_attributes(); ?>>
 <head itemscope itemtype="http://schema.org/WebSite">
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">

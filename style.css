@@ -2865,40 +2865,6 @@ object {
 
 
 /* ヘッダー */
-header{
-	display: flex;
-    justify-content: space-between;
-	position: fixed;
-    top: 0px;
-    width: 100%;
-    border: 5px solid #b1b479;
-    background: #efebdc;
-	height: 57px;
-	z-index: 100;
-}
-img{
-    width: 100%;
-  }
-
-  .header__logo{
-    
-  }
-
-  .header__toggle{
-    background: black;
-    width: 182px;
-    height: 47px;
-  }
-
-  .header__booking{
-    background: black;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 11px;
-    padding: 0px 20px;
-  }
 
   .header__text{
     margin: 0;
@@ -3052,7 +3018,8 @@ humberger settings
     padding: 15px 20px;
     background: #4a593d;
     color: white;
-    display: inline;
+	display: inline;
+	text-decoration: none;
   }
   .img-arrow{
     width: 30px;
@@ -3177,20 +3144,167 @@ humberger settings
 	padding: 40px 25px 100px;
   }
 
-
-  
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-/* 1024pxまでの幅の場合に適応される */
-	body {
-		background-color:#2262D1;
-	}
+.sp-none{
+	display: none;
 }
-  
+a{
+	　text-decoration: none;
+	}
+	/* 1024pxまでの幅の場合に適応される */
+
+
+
+
+
+
+	@media screen and (min-width: 600px) {
+		/* 1024pxまでの幅の場合に適応される */
+			.topkv {
+				margin-top: 0px;
+			}
+			.pc-header {
+				height: 70px;
+				background: green;
+				border: none;
+				display: flex;
+				padding: 0 60px;
+			  }
+			  .pc-header {
+				  position: absolute;
+				  height: 80px;
+				  background: rgba(239, 235, 220, 0.9);
+			  }
+			  .news{
+				height:70px;
+			  }
+			  .news__title {
+				margin-top: 20px;
+			  }
+			  .news__content {
+				margin-top: 20px;
+			  }
+			  .message{
+				max-width: 1000px;
+				margin: auto;
+				padding: 40px 25px;
+			  }
+			  .img-1{
+				width: 500px;
+			  }
+			  .cp-box1{
+				writing-mode: vertical-rl;
+				transform: translate(580px, 10px);
+				transition: translate(10px);
+				position: absolute;
+				height: 570px;
+			  }
+			  .img-2{
+				width: 630px;
+			  }
+			  .pc-title-1{
+				writing-mode: vertical-rl;
+				position: absolute;
+				transform: translate(760px, -430px);
+				height: 300px;
+			  }
+			  .sns{
+				width: 340px;
+				border: 5px solid #b1b479;
+			  }
+			  .pc-flex{
+				display: flex;
+				justify-content: space-around;
+			  }
+			  .booking-btn__wrapper {
+				  background-size: 100%;
+			  }
+			  .btn--footer{
+				width: 300px;
+			  }
+			  .footer__logo {
+				  position: absolute;
+				  transform: translate(743px, -14px);
+				  width: 270px;
+			  }
+			  .footer__info {
+				padding: 40px 200px;
+			  }
+			  .text-nav{
+				padding: 26px;
+			  }
+			  .text-nav{
+				text-decoration: none;
+				color: black;
+			  }
+			  .deco-none{
+				text-decoration: none;
+			  }
+			  .pc-flex-center{
+				display: flex;
+				justify-content: space-around;
+			  }
+			  .stay__topkv {
+				padding: 130px 200px;
+				background-size: 100%;
+			  }
+			  .stay__top {
+				margin-top: 74px;
+			  }
+			  .pc-room-1{
+				width: 570px;
+				margin-right: 90px;
+			  }
+			  .pc-room-2{
+				width: 570px;
+				margin-left: 90px;
+			  }
+			  .pc-room-3{
+				width: 570px;
+				margin-right: 90px;
+			  }
+			  .room{
+				display: flex;
+				margin: 100px 0px;
+			  }
+			  .pc-center{
+				text-align: center;
+			  }
+			  .facili-img-1{
+				height: 450px;
+				width: auto;
+			  }
+			  .facili-img-2{
+				width: 400px;
+			  }
+			  .pc-facili-1 {
+				position: absolute;
+				transform: translate(500px, -270px);
+			  }
+			  .facili-img-3{
+				width: 440px;
+				margin-left: 160px;
+			  }
+			  .facility-item-pc{
+				position: absolute;
+				margin: 50px auto;
+				left: 0;
+				right: 0;
+			  }
+			  .header-box{
+				width: 250px;
+			  }
+			  .container {
+				width: 100%;
+			}
+			.booking{
+				width: 400px;
+				margin: auto;
+			}
+			.booking-wide{
+				width: auto;
+			}
+		}
+		
+		.font-size-title{
+			
+		}

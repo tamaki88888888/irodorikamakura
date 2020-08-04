@@ -34,7 +34,7 @@ get_header(); ?>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v7.0" nonce="Olsdcl7o"></script>
 
-<header class="">
+<header class="pc-none">
   <div class="header__logo"><img class="header__img" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2020/07/irodori-logo_white.png"></div>
   <div class="header__toggle">
   <p class="menu-trigger">
@@ -46,6 +46,16 @@ get_header(); ?>
   <div class="header__booking">
     <p class="header__text">BOOKING</p>
     <p class="header__text">宿泊予約</p>
+  </div>
+</header>
+<header class="pc-header sp-none">
+<div class="header-box"><img class="header__img" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2020/07/irodori-logo_white.png"></div>
+  <div class="pc-flex">
+    <a href="/"><p class="text-nav">ホーム</p></a>
+    <a href="/stay"><p class="text-nav">宿泊案内</p></a>
+    <a href="/facility"><p class="text-nav">施設案内</p></a>
+    <a href="/access"><p class="text-nav">アクセス</p></a>
+    <a href="/hotel-search"><p class="text-nav">ご予約</p></a>
   </div>
 </header>
 
@@ -67,7 +77,7 @@ get_header(); ?>
       <div class="message__text">
         <p>請求先及び、個人情報の入力をお願いいたします。</p>
       </div>
-      <div class="booking page-border">
+      <div class="booking page-border booking-wide">
 	    	<?php
 	    			while ( have_posts() ) : the_post();
 
@@ -84,7 +94,7 @@ get_header(); ?>
     </section>
     <section class="footer">
       <div class="booking-btn__wrapper">
-        <p class="btn btn--footer">宿泊予約はこちら</p>
+        <a href="/hotel-search" class="deco-none"><p class="btn btn--footer">宿泊予約はこちら</p></a>
       </div>
       <div class="footer__info">
         <div class="footer__logo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white.png" alt=""></div>

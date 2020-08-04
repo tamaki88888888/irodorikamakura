@@ -139,11 +139,20 @@ function mugu_content_width()
 }
 add_action('after_setup_theme', 'mugu_content_width', 0);
 
+
+function my_acf_init() {
+    if (function_exists('acf_update_setting')) {
+    acf_update_setting('remove_wp_meta_box', false);
+    }
+}
+add_action('acf/init', 'my_acf_init');
+
 /**
  * Adjust content_width value according to template.
  *
  * @return void
  */
+
 function mugu_template_redirect_content_width()
 {
     // Full Width in the absence of sidebar.
