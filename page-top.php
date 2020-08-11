@@ -322,7 +322,7 @@ $(function() {
 <p class="fname">ゲストハウス 彩(イロドリ)鎌倉</p>
 <p class="faddress">〒248-0014　<br class="pcn">神奈川県, 鎌倉市, 由比ガ浜2-4-23<br>
 TEL 0467-37-9471<br>
-E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
+E-mail　<br class="pcn"><a href="mailto:irodorikamakura@gmail.com">irodorikamakura@gmail.com</a></p>
 </div>
 <ul class="faward">
 <li><img src="https://kamakura-guesthouse.com/img/common/tripadvisor.jpg" alt="" width="264" height="198"></li>
@@ -330,7 +330,7 @@ E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakurag
 <li><img src="https://kamakura-guesthouse.com/img/common/agoda.jpg" alt="" width="131" height="198"></li>
 </ul>
 </div>
-<p class="copyright">© kamakura guesthouse.</p>
+<p class="copyright">© guesthouse irodori  kamakura.</p>
 </footer>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

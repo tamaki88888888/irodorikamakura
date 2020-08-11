@@ -103,7 +103,7 @@ get_header(); ?>
         <p>神奈川県, 鎌倉市, 由比ガ浜2-4-23</p>
         <p>TEL&nbsp;0467-37-9471</p>
         <p>E-mail</p>
-        <p>kamakuraguesthouse@gmail.com</p>
+        <p>irodorikamakura@gmail.com</p>
       </div>
     </section>
   </div>
