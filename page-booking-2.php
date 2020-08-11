@@ -54,7 +54,7 @@ $(function() {
 <div class="page-border">
   <div class="page-wrapper">
   <header class="header">
-<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
+<p class="hlogo"><a href="http://irodorikamakura.com/"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -70,7 +70,7 @@ $(function() {
 <div class="select_lang">
 <p style="display: none;">language</p>
 <ul>
-<li><a href="https://kamakura-guesthouse.com/">JPN</a></li>
+<li><a href="http://irodorikamakura.com/">JPN</a></li>
 <li><a href="https://kamakura-guesthouse.com/en">ENG</a></li>
 <li><a href="https://kamakura-guesthouse.com/fr">FRA</a></li>
 <li><a href="https://kamakura-guesthouse.com/tw">TWN</a></li>

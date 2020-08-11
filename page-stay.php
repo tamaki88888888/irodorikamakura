@@ -95,7 +95,7 @@ img.emoji {
 <div class="page_wrap">
 
 <header class="header">
-<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
+<p class="hlogo"><a href="http://irodorikamakura.com/"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -104,14 +104,14 @@ img.emoji {
 <ul>
 <li><a href="/"><img src="https://kamakura-guesthouse.com/img/common/gnavi00.svg" alt="ホーム" width="55" height="14"></a></li>
 <li><a href="/stay"><img src="https://kamakura-guesthouse.com/img/common/gnavi01.svg" alt="宿泊案内" width="77" height="18"></a></li>
-<li><a href="/facility"><img src="https://kamakura-guesthouse.com/img/common/gnavi02.svg" alt="施設案内" width="77" height="18"></a></li>
+<li><a href="/"><img src="https://kamakura-guesthouse.com/img/common/gnavi02.svg" alt="施設案内" width="77" height="18"></a></li>
 <li><a href="/access"><img src="https://kamakura-guesthouse.com/img/common/gnavi03.svg" alt="アクセス" width="69" height="15"></a></li>
 <li><a href="/booking-2"><img src="https://kamakura-guesthouse.com/img/common/gnavi04.svg" alt="ご予約" width="53" height="18"></a></li>
 </ul>
 <div class="select_lang">
 <p>language</p>
 <ul>
-<li><a href="https://kamakura-guesthouse.com/">JPN</a></li>
+<li><a href="http://irodorikamakura.com/">JPN</a></li>
 <li><a href="https://kamakura-guesthouse.com/en">ENG</a></li>
 <li><a href="https://kamakura-guesthouse.com/fr">FRA</a></li>
 <li><a href="https://kamakura-guesthouse.com/tw">TWN</a></li>
@@ -125,7 +125,7 @@ img.emoji {
 </div>
 <div class="pan">
 <ul>
-<li><a href="https://kamakura-guesthouse.com/">ホーム</a></li>
+<li><a href="http://irodorikamakura.com/">ホーム</a></li>
 <li>宿泊案内</li>
 </ul>
 </div>
@@ -230,21 +230,22 @@ img.emoji {
 
 
 
+
 <section class="photogallery">
 <h2 class="ttl">Photo gallery </h2>
 <ul>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb01.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img01.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb02.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img02.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb03.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img03.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb04.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img04.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb05.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img05.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb06.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img06.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb07.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img07.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb11.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img11.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb10.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img10.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb08.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img08.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb09.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img09.jpg" alt="" width="490" height="327"></a></li>
-<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_imgb12.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img12.jpg" alt="" width="490" height="327"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori3.jpg" data-lightbox="gallery.-set"><img style="width: 390px;height: 157px;" src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori3.jpg" alt="" width="490" height="327"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/03/52647454_358686524981725_3047656003798564864_n.jpg" data-lightbox="gallery.-set"><img style="width: 390px;height: 157px;" src="http://irodorikamakura.com/wp-content/uploads/2020/03/52647454_358686524981725_3047656003798564864_n.jpg" alt="" width="490" height="327"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/02/52793079_358708861646158_253795651949690880_n.jpg" data-lightbox="gallery.-set"><img style="width: 390px;height: 157px;" src="http://irodorikamakura.com/wp-content/uploads/2020/02/52793079_358708861646158_253795651949690880_n.jpg" alt="" width="490" height="327"></a></li>
+<li><a href="https://kamakura-guesthouse.com/img/stay/gallery_img04.jpg" data-lightbox="gallery.-set"><img src="https://kamakura-guesthouse.com/img/stay/gallery_img04.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/01/20180919101930.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/01/20180919101930.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/02/7234.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/7234.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/02/52608780_358708848312826_7839428540658352128_n.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/52608780_358708848312826_7839428540658352128_n.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_9137.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_9137.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/02/52608780_358708848312826_7839428540658352128_n.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/52608780_358708848312826_7839428540658352128_n.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori3.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori3.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori1.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori1.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
+<li><a href="http://irodorikamakura.com/wp-content/uploads/2020/02/スペースマーケットなど写真撮り_171116_0018.jpg" data-lightbox="gallery.-set"><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/スペースマーケットなど写真撮り_171116_0018.jpg" alt="" width="490" height="327" style="width: 390px;height: 157px;"></a></li>
 </ul>
 </section>
 
@@ -256,9 +257,9 @@ img.emoji {
 <footer class="wrap_footer">
 <div class="footer">
 <div class="fcnt">
-<p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
-<p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
-<p class="faddress">〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
+<p class="flogo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="" width="286" height="72"></p>
+<p class="fname">ゲストハウス 彩(イロドリ)鎌倉</p>
+<p class="faddress">〒248-0014　<br class="pcn">神奈川県, 鎌倉市, 由比ガ浜2-4-23<br>
 TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:irodorikamakura@gmail.com">irodorikamakura@gmail.com</a></p>
 </div>

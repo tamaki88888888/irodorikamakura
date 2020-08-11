@@ -126,10 +126,10 @@ img.emoji {
 <p class="hnavi_btn"><span class="menu-button"><i></i></span></p>
 <div class="gnavi">
 <ul>
-<li><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/gnavi00.svg" alt="ホーム" width="55" height="14"></a></li>
-<li><a href="https://kamakura-guesthouse.com/stay"><img src="https://kamakura-guesthouse.com/img/common/gnavi01.svg" alt="宿泊案内" width="77" height="18"></a></li>
-<li><a href="https://kamakura-guesthouse.com/facility"><img src="https://kamakura-guesthouse.com/img/common/gnavi02.svg" alt="施設案内" width="77" height="18"></a></li>
-<li><a href="https://kamakura-guesthouse.com/access"><img src="https://kamakura-guesthouse.com/img/common/gnavi03.svg" alt="アクセス" width="69" height="15"></a></li>
+<li><a href="http://irodorikamakura.com/"><img src="https://kamakura-guesthouse.com/img/common/gnavi00.svg" alt="ホーム" width="55" height="14"></a></li>
+<li><a href="http://irodorikamakura.com/stay"><img src="https://kamakura-guesthouse.com/img/common/gnavi01.svg" alt="宿泊案内" width="77" height="18"></a></li>
+<li><a href="http://irodorikamakura.com/"><img src="https://kamakura-guesthouse.com/img/common/gnavi02.svg" alt="施設案内" width="77" height="18"></a></li>
+<li><a href="http://irodorikamakura.com/"><img src="https://kamakura-guesthouse.com/img/common/gnavi03.svg" alt="アクセス" width="69" height="15"></a></li>
 <li><a href="https://kamakura-guesthouse.com/booking"><img src="https://kamakura-guesthouse.com/img/common/gnavi04.svg" alt="ご予約" width="53" height="18"></a></li>
 </ul>
 <div class="select_lang">
@@ -318,7 +318,7 @@ $(function() {
 <footer class="wrap_footer">
 <div class="footer">
 <div class="fcnt">
-<p class="flogo"><img src="http://localhost:8888/wp-content/uploads/2020/07/irodori-logo_white.png" alt="" width="286" height="72"></p>
+<p class="flogo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="" width="286" height="72"></p>
 <p class="fname">ゲストハウス 彩(イロドリ)鎌倉</p>
 <p class="faddress">〒248-0014　<br class="pcn">神奈川県, 鎌倉市, 由比ガ浜2-4-23<br>
 TEL 0467-37-9471<br>

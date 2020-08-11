@@ -132,7 +132,7 @@
       <div class="footer__info">
         <div class="footer__logo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white.png" alt=""></div>
         <p class="footer__name">ゲストハウス彩（イロドリ）鎌倉</p>
-        <p>〒248-0022</p>
+        <p>〒248-0014</p>
         <p>神奈川県, 鎌倉市, 由比ガ浜2-4-23</p>
         <p>TEL&nbsp;0467-37-9471</p>
         <p>E-mail</p>

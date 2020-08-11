@@ -75,7 +75,7 @@ img.emoji {
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="wrap_top_header">
 <header class="header">
-<h1 class="hlogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="255" height="72"></h1>
+<h1 class="hlogo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="" width="255" height="72"></h1>
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking_en/"><span>BOOKING</span>宿泊予約</a></p>
 <p class="hnavi_btn"><span class="menu-button"><i></i></span></p>
@@ -89,7 +89,7 @@ img.emoji {
 <div class="select_lang">
 <p>language</p>
 <ul>
-<li><a href="https://kamakura-guesthouse.com/">JPN</a></li>
+<li><a href="http://irodorikamakura.com/">JPN</a></li>
 <li><a href="https://kamakura-guesthouse.com/en">ENG</a></li>
 <li><a href="https://kamakura-guesthouse.com/fr">FRA</a></li>
 <li><a href="https://kamakura-guesthouse.com/tw">TWN</a></li>
@@ -546,9 +546,9 @@ It’s a 2 minute walk to Kamakura Guesthouse.</p>
 <footer class="wrap_footer">
 <div class="footer">
 <div class="fcnt">
-<p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
-<p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
-<p class="faddress">〒248-0022<br>273-3,tokiwa,kamakura,kanagawa,Japan<br>
+<p class="flogo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="" width="286" height="72"></p>
+<p class="fname">ゲストハウス 彩(イロドリ)鎌倉</p>
+<p class="faddress">〒248-0014<br>273-3,tokiwa,kamakura,kanagawa,Japan<br>
 TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:irodorikamakura@gmail.com">irodorikamakura@gmail.com</a></p>
 </div>

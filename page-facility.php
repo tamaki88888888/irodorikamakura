@@ -93,7 +93,7 @@ img.emoji {
 <div class="page_wrap">
 
 <header class="header">
-<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
+<p class="hlogo"><a href="http://irodorikamakura.com/"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -109,7 +109,7 @@ img.emoji {
 <div class="select_lang">
 <p>language</p>
 <ul>
-<li><a href="https://kamakura-guesthouse.com/">JPN</a></li>
+<li><a href="http://irodorikamakura.com/">JPN</a></li>
 <li><a href="https://kamakura-guesthouse.com/en">ENG</a></li>
 <li><a href="https://kamakura-guesthouse.com/fr">FRA</a></li>
 <li><a href="https://kamakura-guesthouse.com/tw">TWN</a></li>
@@ -123,7 +123,7 @@ img.emoji {
 </div>
 <div class="pan">
 <ul>
-<li><a href="https://kamakura-guesthouse.com/">ホーム</a></li>
+<li><a href="http://irodorikamakura.com/">ホーム</a></li>
 <li>施設案内</li>
 </ul>
 </div>
@@ -134,7 +134,7 @@ img.emoji {
 ゲストハウス 彩(イロドリ)鎌倉の施設をご案内します。</p>
 
 <section class="common_space">
-<p class="ttl_img"><img src="https://kamakura-guesthouse.com/img/facility/common_ttl.jpg" alt="" width="980" height="300"></p>
+<p class="ttl_img"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori3.jpg" alt="" width="980" height="300"></p>
 <h2 class="ttl">共有スペース</h2>
 <p class="lead">共有スペースには、元料亭から受け継ぐ大きな囲炉裏や風通りのよい縁側。<br>田舎のおばあちゃんちに遊びに来たように、それぞれのゲストハウス 彩(イロドリ)鎌倉をお過ごしください。</p>
 <div class="col2 img_box">
@@ -250,58 +250,6 @@ img.emoji {
 </section>
 
 
-<section id="cafe" class="cafe">
-<p class="ttl_img"><img src="https://kamakura-guesthouse.com/img/facility/cafe_ttl.jpg" alt="" width="980" height="300"></p>
-<h2 class="ttl">bar musica.</h2>
-<p class="lead">ゲストハウス 彩(イロドリ)鎌倉の地下に続く階段をおりると、そこには小さなBARがあります。<br>
-オーディオから流れる、こだわりの音。音に酔いしれ、酒に酔いしれる、10席だけの隠れ家イタリアンバル。<br>
-​10名までの貸し切り、コース等はお電話にてご相談ください。</p>
-<p>営業時間<br>
-Lunch 11:30-14:00 (L.O.13:30)<br>
-Dinner 18:00-23:00 <br>
-(L.O. food 21:00 drink 22:00)<br>
-日曜・隔週月曜定休</p>
-<p class="link">HP：<a href="https://foolhouse0513.wixsite.com/musica" target="_blank">https://foolhouse0513.wixsite.com/musica</a><br>
-<img src="https://kamakura-guesthouse.com/img/common/ig_icon.png" width="18" height="18" alt="instagram">：<a href="https://www.instagram.com/barmusica_kamakura/" target="_blank" class="ig_icon">https://www.instagram.com/barmusica_kamakura/</a></p>
-<div class="col2">
-<div class="colL">
-<div class="img">
-<div class="slide_img">
-<ul>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe1_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe1_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe1_3.jpg" alt="" width="490" height="327"></li>
-</ul>
-</div>
-</div>
-<!-- <h2 class="ttl">朝の部『べーぐる　もへある』<a href="https://www.instagram.com/bagelmtl_kamakura/" target="_blank" class="ig_icon"><img src="https://kamakura-guesthouse.com/img/common/ig_icon.png" width="30" height="30" alt="instagram"></a></h2>
-<p class="txt">ベーグルトーストやサンドイッチで朝を始めてみませんか？<br>
-ドリンクとセット割あります。</p>
-<p>OPEN 7：00〜11：00<br>
-お休みやメニューなどはInstagramでチェックしてください<br>
-お問い合わせ：<a href="mailto:bagelmtl.kamakura@gmail.com">bagelmtl.kamakura@gmail.com</a></p> -->
-</div>
-<div class="colR">
-<div class="img">
-<div class="slide_img">
-<ul>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe2_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe2_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe2_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/facility/cafe2_4.jpg" alt="" width="490" height="327"></li>
-</ul>
-</div>
-</div>
-<!-- <h2 class="ttl">夜の部『ヨルカフェ イコッカ』<a href="https://www.instagram.com/icocca.icocca/" target="_blank" class="ig_icon"><img src="https://kamakura-guesthouse.com/img/common/ig_icon.png" width="30" height="30" alt="instagram"></a></h2>
-<p class="txt">ドリンク一杯からお気軽にどうぞ。<br>いろいろ週替りでおつまみあります。</p>
-<p>OPEN　17：00〜23：00（LO）<br>
-お休みやメニューなどはInstagramでチェックしてください<br>
-お問い合わせ：<a href="mailto:icocca.icocca@gmail.com">icocca.icocca@gmail.com</a></p> -->
-</div>
-</div>
-
-
-</section>
 </main>
 <div class="freserve">
 <p class="ttl"><img src="https://kamakura-guesthouse.com/img/common/fcopy.svg" alt="どうぞゆるりと" width="202" height="32"></p>
@@ -310,9 +258,9 @@ Dinner 18:00-23:00 <br>
 <footer class="wrap_footer">
 <div class="footer">
 <div class="fcnt">
-<p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
-<p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
-<p class="faddress">〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
+<p class="flogo"><img src="http://irodorikamakura.com/wp-content/uploads/2020/07/irodori-logo_white-1.png" alt="" width="286" height="72"></p>
+<p class="fname">ゲストハウス 彩(イロドリ)鎌倉</p>
+<p class="faddress">〒248-0014　<br class="pcn">神奈川県, 鎌倉市, 由比ガ浜2-4-23<br>
 TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:irodorikamakura@gmail.com">irodorikamakura@gmail.com</a></p>
 </div>
