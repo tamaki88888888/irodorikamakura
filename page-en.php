@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Kamakura Guesthouse | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿</title>
+<title>Kamakura Guesthouse | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿</title>
 <meta name="description" content="The Kamakura Guesthouse is a warm, wooden house built by temple carpenters.Here you will find Japanese futon, tatami floors and a rare, functional irori (traditional Japanese hearth) There is also a cozy bar down a hidden staircase.Please drop by on your travels and enjoy taking a step back into the good old days of Japan." />
 
 <link rel="Shortcut Icon" type="image/x-icon" href="https://kamakura-guesthouse.com/img/favicon.png" />
@@ -10,9 +10,9 @@
 <meta property="fb:admins" content="" />
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Kamakura Guesthouse | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
+<meta property="og:title" content="Kamakura Guesthouse | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
 <meta property="og:url" content="https://kamakura-guesthouse.com/en/">
-<meta property="og:site_name" content="【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
+<meta property="og:site_name" content="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
 <meta name="og:description" content='The Kamakura Guesthouse is a warm, wooden house built by temple carpenters.Here you will find Japanese futon, tatami floors and a rare, functional irori (traditional Japanese hearth) There is also a cozy bar down a hidden staircase.Please drop by on your travels and enjoy taking a step back into the good old days of Japan.' />
 <meta property="og:image" content="https://kamakura-guesthouse.com/img/ogp.jpg">
 <!--OGP完了-->
@@ -525,7 +525,7 @@ It’s a 2 minute walk to Kamakura Guesthouse.</p>
 <a class="twitter-timeline" data-width="490" data-height="350" href="https://twitter.com/kamagesu?ref_src=twsrc%5Etfw">Tweets by kamagesu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 <div class="fb">
-<div class="fb-page" data-href="https://www.facebook.com/kamakuraguesthouse/" data-tabs="timeline" data-width="500" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kamakuraguesthouse/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kamakuraguesthouse/">鎌倉ゲストハウス-Kamakura Guesthouse-</a></blockquote></div>
+<div class="fb-page" data-href="https://www.facebook.com/kamakuraguesthouse/" data-tabs="timeline" data-width="500" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kamakuraguesthouse/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kamakuraguesthouse/">ゲストハウス 彩(イロドリ)鎌倉-Kamakura Guesthouse-</a></blockquote></div>
 </div>
 </div>
 <div class="ig">
@@ -549,7 +549,7 @@ It’s a 2 minute walk to Kamakura Guesthouse.</p>
 <p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
 <p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
 <p class="faddress">〒248-0022<br>273-3,tokiwa,kamakura,kanagawa,Japan<br>
-TEL 0467-67-6078<br>
+TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
 </div>
 <ul class="faward">

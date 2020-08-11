@@ -7,6 +7,8 @@
 		if ( comments_open() || get_comments_number() ) :
 			comments_template();
         endif;
+        $youtube = get_field('youtube');
+
         $news1url = get_field('news1-url');
         $news1name = get_field('news1-name');
         $news2url = get_field('news2-url');
@@ -42,18 +44,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>【鎌倉ゲストハウス】囲炉裏のある小さなお宿</title>
-<meta name="description" content="囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<title>【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿</title>
+<meta name="description" content="囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta name="Keywords" content="鎌倉,ゲストハウス,安宿,神奈川,湘南,kamakura,guesthouse,素泊まり,囲炉裏,ライダーハウス,チャリダー" />
 <link rel="Shortcut Icon" type="image/x-icon" href="https://kamakura-guesthouse.com/img/favicon.png" />
 <!--OGP開始-->
 <meta property="fb:admins" content="" />
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
-<meta property="og:title" content="【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
+<meta property="og:title" content="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
 <meta property="og:url" content="https://kamakura-guesthouse.com/">
-<meta property="og:site_name" content="【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
-<meta name="og:description" content="囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<meta property="og:site_name" content="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
+<meta name="og:description" content="囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta property="og:image" content="https://kamakura-guesthouse.com/img/ogp.jpg">
 <!--OGP完了-->
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -117,7 +119,7 @@ img.emoji {
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="wrap_top_header">
 <header class="header">
-<h1 class="hlogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　鎌倉ゲストハウス" width="255" height="72"></h1>
+<h1 class="hlogo"><img src="http://localhost:8888/wp-content/uploads/2020/07/irodori-logo_white.png" alt="彩鎌倉" width="255" height="72"></h1>
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -142,7 +144,16 @@ img.emoji {
 </header>
 </div>
 <div class="top_mv">
-<div id="youtube">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/<?php echo $youtube ?>
+?loop=1
+&playlist=<?php echo $youtube ?>
+&autoplay=1
+&mute=1
+&rel=0
+&modestbranding=1"
+frameborder="0" allowfullscreen>
+</iframe>
 </div>
 <ul id="slide_wrapp">
 <li class="slide_item"></li>
@@ -161,8 +172,8 @@ img.emoji {
 <div class="info_cnt">
 <p class="ttl"><a href="https://kamakura-guesthouse.com/info"><img src="https://kamakura-guesthouse.com/img/top/info_ttl.svg" alt="お知らせ" width="66" height="16"></a></p>
 <ul class="cnt">
-<li><span class="date"></span><span><a href="<?php $news1url ?>"><?php $news1name ?></a></span></li>
-<li><span class="date"></span><span><a href="<?php $news2url ?>universaltourism/"><?php $news2name ?></a></span></li>
+<li><span class="date"></span><span><a href="<?php echo $news1url ?>"><?php echo $news1name ?></a></span></li>
+<li><span class="date"></span><span><a href="<?php echo $news2url ?>universaltourism/"><?php echo $news2name ?></a></span></li>
 </ul>
 </div>
 </div>
@@ -234,12 +245,12 @@ img.emoji {
 <div class="cnt">
 <p class="img">
     <?php if( $img4 ): ?>
-        <img src="<?php the_field('img4'); ?>" alt="" width="600" height="400">
+        <img src="<?php the_field('img6'); ?>" alt="" width="600" height="400">
     <?php else: ?>
         <img src="https://kamakura-guesthouse.com/img/top/top_img04.jpg" alt="" width="600" height="400">
     <?php endif; ?>
     <?php if( $img5 ): ?>
-        <img src="<?php the_field('img5'); ?>" alt="" width="300" height="300">
+        <img src="<?php the_field('img7'); ?>" alt="" width="300" height="300">
     <?php else: ?>
         <img src="https://kamakura-guesthouse.com/img/top/top_img04-2.jpg" alt="" width="300" height="300">
     <?php endif; ?>
@@ -252,21 +263,21 @@ img.emoji {
 </section>
 
 <section class="top_sec sec2">
-<h2 class="top_sec_ttl"><p class="copy3 vartical">日々の<br>鎌倉ゲストハウス</p></h2>
+<h2 class="top_sec_ttl"><p class="copy3 vartical">日々の<br>ゲストハウス 彩(イロドリ)鎌倉</p></h2>
 <div class="timeline">
 <div class="tw">
-<a class="twitter-timeline" data-width="490" data-height="350" href="https://twitter.com/kamagesu?ref_src=twsrc%5Etfw">Tweets by kamagesu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="490" data-height="350" href="https://twitter.com/tomoya_a750">Tweets by kamagesu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 <div class="fb">
-<div class="fb-page" data-href="https://www.facebook.com/kamakuraguesthouse/" data-tabs="timeline" data-width="500" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kamakuraguesthouse/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kamakuraguesthouse/">鎌倉ゲストハウス-Kamakura Guesthouse-</a></blockquote></div>
+<div class="fb-page" data-href="https://www.facebook.com/iiilinku/?__tn__=kC-R&eid=ARAgO5JiZUjjKCNmWAdWnIige0qXc6RkHmEmBUBGjzKZ6wXqiSxmkuoRSJ9lPL357lX8LM2FYEE5adXX&hc_ref=ARQBhUxc_1Kw4UtRljNAQuxckfUSrqq5OSiGkaHOCOn-IoKfO2QJEMTI6UEc347N-8k&fref=tag&__xts__[0]=68.ARBVaXoeG0KfBkiT-0-vDhXboXbEXN7a65-X6SGhmBsRLRz3h7yTQYVu6jG_BPmDEpOms3k9pkCiQnKnBzTBj1rjs6rMPSI9uvCvWcWajN9428gm36cwQCiXzoBGDPCFCWVuSATIMYhaop8gFEtVEmzfYfXi30xoBkk01SJPJXDrCTsIvwyCwjj9bNNidbRTbLGYU_-N-0zA1kb8s4sW4dPDrB53sZx5SxV6QdOwWKu_PAuj6yKhOpI-a13MZdMJ9GVurQI8K662P8DYXu9rz_5bLE7m0VQUgd9xmw" data-tabs="timeline" data-width="500" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iiilinku/?__tn__=kC-R&eid=ARAgO5JiZUjjKCNmWAdWnIige0qXc6RkHmEmBUBGjzKZ6wXqiSxmkuoRSJ9lPL357lX8LM2FYEE5adXX&hc_ref=ARQBhUxc_1Kw4UtRljNAQuxckfUSrqq5OSiGkaHOCOn-IoKfO2QJEMTI6UEc347N-8k&fref=tag&__xts__[0]=68.ARBVaXoeG0KfBkiT-0-vDhXboXbEXN7a65-X6SGhmBsRLRz3h7yTQYVu6jG_BPmDEpOms3k9pkCiQnKnBzTBj1rjs6rMPSI9uvCvWcWajN9428gm36cwQCiXzoBGDPCFCWVuSATIMYhaop8gFEtVEmzfYfXi30xoBkk01SJPJXDrCTsIvwyCwjj9bNNidbRTbLGYU_-N-0zA1kb8s4sW4dPDrB53sZx5SxV6QdOwWKu_PAuj6yKhOpI-a13MZdMJ9GVurQI8K662P8DYXu9rz_5bLE7m0VQUgd9xmw" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iiilinku/?__tn__=kC-R&eid=ARAgO5JiZUjjKCNmWAdWnIige0qXc6RkHmEmBUBGjzKZ6wXqiSxmkuoRSJ9lPL357lX8LM2FYEE5adXX&hc_ref=ARQBhUxc_1Kw4UtRljNAQuxckfUSrqq5OSiGkaHOCOn-IoKfO2QJEMTI6UEc347N-8k&fref=tag&__xts__[0]=68.ARBVaXoeG0KfBkiT-0-vDhXboXbEXN7a65-X6SGhmBsRLRz3h7yTQYVu6jG_BPmDEpOms3k9pkCiQnKnBzTBj1rjs6rMPSI9uvCvWcWajN9428gm36cwQCiXzoBGDPCFCWVuSATIMYhaop8gFEtVEmzfYfXi30xoBkk01SJPJXDrCTsIvwyCwjj9bNNidbRTbLGYU_-N-0zA1kb8s4sW4dPDrB53sZx5SxV6QdOwWKu_PAuj6yKhOpI-a13MZdMJ9GVurQI8K662P8DYXu9rz_5bLE7m0VQUgd9xmw">ゲストハウス 彩(イロドリ)鎌倉-Kamakura Guesthouse-</a></blockquote></div>
 </div>
 </div>
 <div class="ig" id="ig">
 </div>
 <ul class="sns_link">
-<li><a href="https://twitter.com/kamagesu" target="_blank"><img src="https://kamakura-guesthouse.com/img/top/tw.svg" alt="twitter" width="77" height="18"></a></li>
-<li><a href="https://www.facebook.com/kamakuraguesthouse/" target="_blank"><img src="https://kamakura-guesthouse.com/img/top/fb.svg" alt="facebook" width="99" height="19"></a></li>
-<li><a href="https://www.instagram.com/kamakuraguesthouse" target="_blank"><img src="https://kamakura-guesthouse.com/img/top/ig.svg" alt="instagram" width="107" height="23"></a></li>
+<li><a href="https://twitter.com/tomoya_a750" target="_blank"><img src="https://kamakura-guesthouse.com/img/top/tw.svg" alt="twitter" width="77" height="18"></a></li>
+<li><a href="https://www.facebook.com/iiilinku/?__tn__=kC-R&eid=ARAgO5JiZUjjKCNmWAdWnIige0qXc6RkHmEmBUBGjzKZ6wXqiSxmkuoRSJ9lPL357lX8LM2FYEE5adXX&hc_ref=ARQBhUxc_1Kw4UtRljNAQuxckfUSrqq5OSiGkaHOCOn-IoKfO2QJEMTI6UEc347N-8k&fref=tag&__xts__[0]=68.ARBVaXoeG0KfBkiT-0-vDhXboXbEXN7a65-X6SGhmBsRLRz3h7yTQYVu6jG_BPmDEpOms3k9pkCiQnKnBzTBj1rjs6rMPSI9uvCvWcWajN9428gm36cwQCiXzoBGDPCFCWVuSATIMYhaop8gFEtVEmzfYfXi30xoBkk01SJPJXDrCTsIvwyCwjj9bNNidbRTbLGYU_-N-0zA1kb8s4sW4dPDrB53sZx5SxV6QdOwWKu_PAuj6yKhOpI-a13MZdMJ9GVurQI8K662P8DYXu9rz_5bLE7m0VQUgd9xmw" target="_blank"><img src="https://kamakura-guesthouse.com/img/top/fb.svg" alt="facebook" width="99" height="19"></a></li>
+<li><a href="https://www.instagram.com/guesthouse_irodori/?hl=ja" target="_blank"><img src="https://kamakura-guesthouse.com/img/top/ig.svg" alt="instagram" width="107" height="23"></a></li>
 </ul>
 </section>
     <script>
@@ -307,10 +318,10 @@ $(function() {
 <footer class="wrap_footer">
 <div class="footer">
 <div class="fcnt">
-<p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
-<p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
-<p class="faddress">〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
-TEL 0467-67-6078<br>
+<p class="flogo"><img src="http://localhost:8888/wp-content/uploads/2020/07/irodori-logo_white.png" alt="" width="286" height="72"></p>
+<p class="fname">ゲストハウス 彩(イロドリ)鎌倉</p>
+<p class="faddress">〒248-0014　<br class="pcn">神奈川県, 鎌倉市, 由比ガ浜2-4-23<br>
+TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
 </div>
 <ul class="faward">
@@ -377,6 +388,12 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/kamakura-guesthouse.com\/wp-json\/
         display: inline;
         font-size: 32px;
         margin-left: 264px;
+    }
+    .wrap_top_header .header .hlogo {
+        width: 80px;
+    }
+    .fname{
+        font-size: 25px;
     }
 </style>
 </body>

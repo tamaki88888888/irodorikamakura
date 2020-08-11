@@ -2,18 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>施設案内 | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿</title>
-<meta name="description" content="施設案内 ｜ 囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<title>施設案内 | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿</title>
+<meta name="description" content="施設案内 ｜ 囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta name="Keywords" content="鎌倉,ゲストハウス,安宿,神奈川,湘南,kamakura,guesthouse,素泊まり,囲炉裏,ライダーハウス,チャリダー" />
 <link rel="Shortcut Icon" type="image/x-icon" href="https://kamakura-guesthouse.com/img/favicon.png" />
 <!--OGP開始-->
 <meta property="fb:admins" content="" />
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
-<meta property="og:title" content="施設案内 | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
+<meta property="og:title" content="施設案内 | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
 <meta property="og:url" content="https://kamakura-guesthouse.com/facility/">
-<meta property="og:site_name" content="【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
-<meta name="og:description" content="施設案内 ｜ 囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<meta property="og:site_name" content="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
+<meta name="og:description" content="施設案内 ｜ 囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta property="og:image" content="https://kamakura-guesthouse.com/img/ogp.jpg">
 <!--OGP完了-->
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -93,7 +93,7 @@ img.emoji {
 <div class="page_wrap">
 
 <header class="header">
-<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　鎌倉ゲストハウス" width="255" height="72"></a></p>	
+<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -131,12 +131,12 @@ img.emoji {
 <main class="main_contents facility">
 <p class="main_copy">どうぞゆるり、<br class="pcn">お過ごしください</p>
 <p class="main_lead">風通しのいい縁側でゆったり読書したり、囲炉裏を囲みながらゲストとの宴を楽しむ。<br>
-鎌倉ゲストハウスの施設をご案内します。</p>
+ゲストハウス 彩(イロドリ)鎌倉の施設をご案内します。</p>
 
 <section class="common_space">
 <p class="ttl_img"><img src="https://kamakura-guesthouse.com/img/facility/common_ttl.jpg" alt="" width="980" height="300"></p>
 <h2 class="ttl">共有スペース</h2>
-<p class="lead">共有スペースには、元料亭から受け継ぐ大きな囲炉裏や風通りのよい縁側。<br>田舎のおばあちゃんちに遊びに来たように、それぞれの鎌倉ゲストハウスをお過ごしください。</p>
+<p class="lead">共有スペースには、元料亭から受け継ぐ大きな囲炉裏や風通りのよい縁側。<br>田舎のおばあちゃんちに遊びに来たように、それぞれのゲストハウス 彩(イロドリ)鎌倉をお過ごしください。</p>
 <div class="col2 img_box">
 <div class="colL wrap_img">
 <div class="slide_img">
@@ -253,7 +253,7 @@ img.emoji {
 <section id="cafe" class="cafe">
 <p class="ttl_img"><img src="https://kamakura-guesthouse.com/img/facility/cafe_ttl.jpg" alt="" width="980" height="300"></p>
 <h2 class="ttl">bar musica.</h2>
-<p class="lead">鎌倉ゲストハウスの地下に続く階段をおりると、そこには小さなBARがあります。<br>
+<p class="lead">ゲストハウス 彩(イロドリ)鎌倉の地下に続く階段をおりると、そこには小さなBARがあります。<br>
 オーディオから流れる、こだわりの音。音に酔いしれ、酒に酔いしれる、10席だけの隠れ家イタリアンバル。<br>
 ​10名までの貸し切り、コース等はお電話にてご相談ください。</p>
 <p>営業時間<br>
@@ -313,7 +313,7 @@ Dinner 18:00-23:00 <br>
 <p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
 <p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
 <p class="faddress">〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
-TEL 0467-67-6078<br>
+TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
 </div>
 <ul class="faward">

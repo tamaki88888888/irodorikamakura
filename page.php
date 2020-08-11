@@ -2,22 +2,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>【ご予約状況】　※ご予約前にご確認ください | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿</title>
-<meta name="description" content="【ご予約状況】　※ご予約前にご確認ください ｜ 囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<title>【ご予約状況】　※ご予約前にご確認ください | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿</title>
+<meta name="description" content="【ご予約状況】　※ご予約前にご確認ください ｜ 囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta name="Keywords" content="鎌倉,ゲストハウス,安宿,神奈川,湘南,kamakura,guesthouse,素泊まり,囲炉裏,ライダーハウス,チャリダー" />
 <link rel="Shortcut Icon" type="image/x-icon" href="https://kamakura-guesthouse.com/img/favicon.png" />
 <!--OGP開始-->
 <meta property="fb:admins" content="" />
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="【ご予約状況】　※ご予約前にご確認ください | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
+<meta property="og:title" content="【ご予約状況】　※ご予約前にご確認ください | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
 <meta property="og:url" content="https://kamakura-guesthouse.com/info/109/">
-<meta property="og:site_name" content="【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
-<meta name="og:description" content="【ご予約状況】　※ご予約前にご確認ください ｜ 囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<meta property="og:site_name" content="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
+<meta name="og:description" content="【ご予約状況】　※ご予約前にご確認ください ｜ 囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta property="og:image" content="https://kamakura-guesthouse.com/img/ogp.jpg">
 <!--OGP完了-->
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="【鎌倉ゲストハウス】囲炉裏のある小さなお宿 &raquo; 【ご予約状況】　※ご予約前にご確認ください のコメントのフィード" href="https://kamakura-guesthouse.com/info/109/feed/" />
+<link rel="alternate" type="application/rss+xml" title="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿 &raquo; 【ご予約状況】　※ご予約前にご確認ください のコメントのフィード" href="https://kamakura-guesthouse.com/info/109/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kamakura-guesthouse.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.15"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -69,7 +69,7 @@ img.emoji {
 <div class="page_wrap">
 
 <header class="header">
-<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　鎌倉ゲストハウス" width="255" height="72"></a></p>	
+<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -141,7 +141,7 @@ img.emoji {
 <p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
 <p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
 <p class="faddress">〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
-TEL 0467-67-6078<br>
+TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
 </div>
 <ul class="faward">

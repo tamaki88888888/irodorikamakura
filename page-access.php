@@ -14,6 +14,9 @@
         $img2 = get_field('img2');
         $img3 = get_field('img3');
 
+        $img4 = get_field('img4');
+        $text2 = get_field('text2');
+
 	endwhile; // End of the loop.
 ?>
 
@@ -21,18 +24,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>アクセス | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿</title>
-<meta name="description" content="アクセス ｜ 囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<title>アクセス | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿</title>
+<meta name="description" content="アクセス ｜ 囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta name="Keywords" content="鎌倉,ゲストハウス,安宿,神奈川,湘南,kamakura,guesthouse,素泊まり,囲炉裏,ライダーハウス,チャリダー" />
 <link rel="Shortcut Icon" type="image/x-icon" href="https://kamakura-guesthouse.com/img/favicon.png" />
 <!--OGP開始-->
 <meta property="fb:admins" content="" />
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
-<meta property="og:title" content="アクセス | 【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
+<meta property="og:title" content="アクセス | 【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
 <meta property="og:url" content="https://kamakura-guesthouse.com/access/">
-<meta property="og:site_name" content="【鎌倉ゲストハウス】囲炉裏のある小さなお宿">
-<meta name="og:description" content="アクセス ｜ 囲炉裏のある小さなお宿【鎌倉ゲストハウス】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
+<meta property="og:site_name" content="【ゲストハウス 彩(イロドリ)鎌倉】囲炉裏のある小さなお宿">
+<meta name="og:description" content="アクセス ｜ 囲炉裏のある小さなお宿【ゲストハウス 彩(イロドリ)鎌倉】1泊3,500円。大きな囲炉裏とふっかふかのお布団。旅の宴を楽しんだり、縁側でひとり時間を楽しんだり。どうぞゆるりお過ごしください。" />
 <meta property="og:image" content="https://kamakura-guesthouse.com/img/ogp.jpg">
 <!--OGP完了-->
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -86,7 +89,7 @@ img.emoji {
 <div class="page_wrap">
 
 <header class="header">
-<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　鎌倉ゲストハウス" width="255" height="72"></a></p>	
+<p class="hlogo"><a href="https://kamakura-guesthouse.com/"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="囲炉裏のある小さなお宿　ゲストハウス 彩(イロドリ)鎌倉" width="255" height="72"></a></p>	
 
 <nav>
 <p class="spreserve_btn"><a href="https://kamakura-guesthouse.com/booking"><span>BOOKING</span>宿泊予約</a></p>
@@ -127,7 +130,7 @@ img.emoji {
 
 <p class="around_map">
     <?php if( $img1 ): ?>
-        <img src="<?php the_field('img1'); ?>" alt="" width="720" height="">
+        <img src="<?php echo $img1; ?>" alt="" width="720" height="">
     <?php else: ?>
         <img src="https://kamakura-guesthouse.com/img/access/around_map.jpg" alt="" width="720" height="">
     <?php endif; ?>
@@ -137,12 +140,12 @@ img.emoji {
 <h2 class="sec_ttl"><?php echo $title1 ?></h2>
 <div class="area_map">
 <?php if( $img2 ): ?>
-        <img src="<?php the_field('img2'); ?>" alt="" width="862" height="439" class="onlyPC">
+        <img src="<?php echo $img2; ?>" alt="" width="862" height="439" class="onlyPC">
     <?php else: ?>
         <img src="https://kamakura-guesthouse.com/img/access/map.png" alt="" width="862" height="439" class="onlyPC">
     <?php endif; ?>
     <?php if( $img3 ): ?>
-        <img src="<?php the_field('img3'); ?>" alt="" width="720" height="">
+        <img src="<?php echo $img3; ?>" alt="" width="720" height="">
     <?php else: ?>
         <img src="https://kamakura-guesthouse.com/img/access/around_map.jpg" alt="" width="720" height="">
     <?php endif; ?>
@@ -169,7 +172,7 @@ img.emoji {
 </div>
 <div class="out">
 <P><strong>バス停：梶原口</strong>下車。</P>
-<p>鎌倉ゲストハウスまで2分。</p>
+<p>ゲストハウス 彩(イロドリ)鎌倉まで2分。</p>
 </div>
 </div>
 </div>
@@ -185,7 +188,7 @@ img.emoji {
 </div>
 <div class="out">
 <P><strong>バス停：梶原口</strong>下車。</P>
-<p>鎌倉ゲストハウスまで2分。</p>
+<p>ゲストハウス 彩(イロドリ)鎌倉まで2分。</p>
 </div>
 </div>
 
@@ -196,7 +199,7 @@ img.emoji {
 </div>
 <div class="out">
 <P><strong>湘南深沢駅</strong>下車。</P>
-<p>鎌倉ゲストハウスまで徒歩9分。</p>
+<p>ゲストハウス 彩(イロドリ)鎌倉まで徒歩9分。</p>
 </div>
 </div>
 </div>
@@ -213,7 +216,7 @@ img.emoji {
 </div>
 <div class="out">
 <P><strong>バス停：梶原口</strong>下車。</P>
-<p>鎌倉ゲストハウスまで2分。</p>
+<p>ゲストハウス 彩(イロドリ)鎌倉まで2分。</p>
 </div>
 </div>
 </div>
@@ -229,7 +232,7 @@ img.emoji {
 </div>
 <div class="out">
 <P><strong>湘南深沢駅</strong>下車。</P>
-<p>鎌倉ゲストハウスまで徒歩9分。</p>
+<p>ゲストハウス 彩(イロドリ)鎌倉まで徒歩9分。</p>
 </div>
 </div>
 </div>
@@ -245,7 +248,7 @@ img.emoji {
 </div>
 <div class="out">
 <P><strong>バス停：梶原口</strong>下車。</P>
-<p>鎌倉ゲストハウスまで2分。</p>
+<p>ゲストハウス 彩(イロドリ)鎌倉まで2分。</p>
 </div>
 </div>
 </div>
@@ -255,14 +258,10 @@ img.emoji {
 
 <div class="col2">
 <div class="colL">
-<p class="img"><img src="https://kamakura-guesthouse.com/img/access/access_img.jpg" alt="鎌倉ゲストハウス外観" width="490" height="327"></p>
+<p class="img"><img src="<?php echo $img4; ?>" alt="" width="490" height="327"></p>
 </div>
 <div class="colR gaikan_txt">
-<p class="name">鎌倉ゲストハウス</p>
-<p>〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
-電話　0467-67-6078<br>
-E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
-</div>
+<?php echo $text2; ?>
 </div>
 
 <div class="gmap">
@@ -281,7 +280,7 @@ E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakurag
 <p class="flogo"><img src="https://kamakura-guesthouse.com/img/common/hlogo.png" alt="" width="286" height="72"></p>
 <p class="fname"><img src="https://kamakura-guesthouse.com/img/common/flogo.svg" alt="" width="187" height="26"></p>
 <p class="faddress">〒248-0022　<br class="pcn">神奈川県鎌倉市常盤273-3<br>
-TEL 0467-67-6078<br>
+TEL 0467-37-9471<br>
 E-mail　<br class="pcn"><a href="mailto:kamakuraguesthouse@gmail.com">kamakuraguesthouse@gmail.com</a></p>
 </div>
 <ul class="faward">
