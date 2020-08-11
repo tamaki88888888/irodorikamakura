@@ -140,16 +140,16 @@ img.emoji {
 <div class="col2 img_box">
 <div class="colL wrap_img">
 <ul class="slide">
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_4.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06394-2-1-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06388-2-1-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06379-2-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06388-2-scaled.jpg" alt="" width="490" height="327"></li>
 </ul>
 <ul class="thumb thumb1">
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img1_4.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06394-2-1-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06388-2-1-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06379-2-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06388-2-scaled.jpg" alt="" width="490" height="327"></li>
 </ul>
 </div>
 
@@ -167,16 +167,16 @@ img.emoji {
 <div class="col2 img_box">
 <div class="colR wrap_img">
 <ul class="slide2">
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_4.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06403-2-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06401-2-1-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06397-2-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/スペースマーケットなど写真撮り_171116_0018.jpg" alt="" width="490" height="327"></li>
 </ul>
 <ul class="thumb thumb2">
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img2_4.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06403-2-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06401-2-1-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/DSC06397-2-scaled.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/スペースマーケットなど写真撮り_171116_0018.jpg" alt="" width="490" height="327"></li>
 </ul>
 </div>
 <div class="colL wrap_txt">
@@ -193,16 +193,16 @@ img.emoji {
 <div class="col2 img_box">
 <div class="colL wrap_img">
 <ul class="slide3">
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_4.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3464.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3094.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3094-1.jpg" alt="" width="490" height="327"></li>
+<li><img src="hhttp://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3094.jpg" alt="" width="490" height="327"></li>
 </ul>
 <ul class="thumb thumb3">
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_1.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_2.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_3.jpg" alt="" width="490" height="327"></li>
-<li><img src="https://kamakura-guesthouse.com/img/stay/stay_img3_4.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3464.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3094.jpg" alt="" width="490" height="327"></li>
+<li><img src="http://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3094-1.jpg" alt="" width="490" height="327"></li>
+<li><img src="hhttp://irodorikamakura.com/wp-content/uploads/2020/02/IMG_3094.jpg" alt="" width="490" height="327"></li>
 </ul>
 </div>
 <div class="colR wrap_txt">
